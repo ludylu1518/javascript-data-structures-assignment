@@ -33,6 +33,39 @@ let mySampleObject = {
 
 //Make sure to make at least 3 animal objects with these keys inside of the myZooAnimals array!
 
-let myZooAnimals;
+let myZooAnimals = [];
+
+let dog = {
+  animalType: 'dog',
+  name: 'Scott',
+  age: 5,
+  pictureURL: 'https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZG9nfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60',
+};
+
+let cat = {
+  animalType: 'cat',
+  name: 'Kate',
+  age: 3,
+  pictureURL: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0fGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60',
+}
+
+let fish = {
+  animalType: 'fish',
+  name: 'Golden',
+  age: 1,
+  pictureURL: 'https://images.unsplash.com/photo-1625369708811-65ebfc5ca632?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z29sZGZpc2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1000&q=60',
+};
+
+let turtle = {
+  animalType: 'turtle',
+  name: 'Todd',
+  age: 25,
+  pictureURL: 'https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHVydGxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60',
+};
+
+myZooAnimals.push(dog);
+myZooAnimals.push(cat);
+myZooAnimals.push(fish);
+myZooAnimals.push(turtle);
 
 //END OF ASSIGNMENT
